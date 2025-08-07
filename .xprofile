@@ -1,0 +1,5 @@
+sxhkd &
+picom &
+slstatus &
+#feh --bg-fill ~/Pictures/default/frog3.jpg
+
