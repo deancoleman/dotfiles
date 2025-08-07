@@ -1,0 +1,26 @@
+
+# General Syntax:
+#
+# [MODIFIER + ]*[@]KEYSYM
+#     COMMAND
+#
+
+#Increase Brightness
+XF86MonBrightnessUp
+  brightnessctl set 10%+
+
+#Decrease Brightness
+XF86MonBrightnessDown
+  brightnessctl set 10%-
+
+# Toggle mute
+XF86AudioMute
+    pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+# Toggle mic mute
+XF86AudioMicMute
+    pactl set-source-mute @DEFAULT_SOURCE@ toggle
+
+# Change volume
+XF86Audio{Raise,Lower}Volume
+    pactl set-sink-volume @DEFAULT_SINK@ {+,-}10%

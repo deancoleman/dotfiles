@@ -1,0 +1,20 @@
+general.import = [
+	"~/.config/alacritty/themes/themes/custom.toml"
+]
+
+[window]
+opacity = 0.9
+
+  [window.padding]
+  x = 10
+  y = 10
+
+[font]
+size = 12
+normal = {family = "Terminess Nerd Font", style = "Regular" }
+
+[keyboard]
+bindings = [
+   { key = "Return", mods = "Control|Shift", action = "SpawnNewInstance" }
+]
+

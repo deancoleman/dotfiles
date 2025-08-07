@@ -1,0 +1,15 @@
+{
+	"contributes": {
+		"snippets": [
+			{
+				"language": "latex",
+				"path": "./latex.json"
+			},
+			{
+				"language": "lua",
+				"path": "./project-specific/nvim-lua.json"
+			}
+		]
+	},
+	"name": "my-snippets"
+}

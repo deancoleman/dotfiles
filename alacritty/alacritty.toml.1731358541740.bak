@@ -1,0 +1,14 @@
+general.import = [
+  "/usr/lib/node_modules/alacritty-themes/themes/Gotham.toml"
+]
+
+[window]
+opacity = 0.9
+
+  [window.padding]
+  x = 10
+  y = 10
+
+[font]
+size = 9
+normal = {family = "MartianMono Nerd Font", style = "Regular" }
